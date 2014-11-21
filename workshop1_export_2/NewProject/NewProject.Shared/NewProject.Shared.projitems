@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>425E4D5A-E4A6-47C5-9B03-A0D58BE16DA2</SharedGUID>
+  </PropertyGroup>
+  <ItemGroup>
+	<Content Include="$(MSBuildThisFileDirectory)c2runtime.js" />
+	<Content Include="$(MSBuildThisFileDirectory)jquery-2.0.0.min.js" />
+	<Content Include="$(MSBuildThisFileDirectory)images\tiledbackground.png" />
+	<Content Include="$(MSBuildThisFileDirectory)images\player-sheet0.png" />
+	<Content Include="$(MSBuildThisFileDirectory)images\monster-sheet0.png" />
+	<Content Include="$(MSBuildThisFileDirectory)images\bullet-sheet0.png" />
+	<Content Include="$(MSBuildThisFileDirectory)images\explosion-sheet0.png" />
+	<Content Include="$(MSBuildThisFileDirectory)icon-16.png" />
+	<Content Include="$(MSBuildThisFileDirectory)icon-32.png" />
+	<Content Include="$(MSBuildThisFileDirectory)icon-114.png" />
+	<Content Include="$(MSBuildThisFileDirectory)icon-128.png" />
+	<Content Include="$(MSBuildThisFileDirectory)icon-256.png" />
+	<Content Include="$(MSBuildThisFileDirectory)loading-logo.png" />
+
+  </ItemGroup>
+</Project>
